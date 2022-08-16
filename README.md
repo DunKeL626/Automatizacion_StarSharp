@@ -8,8 +8,8 @@ Este repositorio tiene la automatización del aplicativo web de StartSharp, una 
 
 ### ¿Cómo se configura?
 
-- Descargar las fuentas de `git clone https://USER_DE_BITBUCKET@bitbucket.org/pmolano/sura-mexico-portal-agentes-qa.git`.
-- Ingrese la carpeta de del directorio `cd sura-mexico-portal-agentes-qa`.
+- Descargar las fuentas de `git clone https://github.com/DunKeL626/Automatizacion_StarSharp.git`.
+- Ingrese la carpeta de del directorio `cd Automatizacion_StarSharp`.
 - Ejecutar el comando `npm i` para instalar las librerias.
 - Para ejecutar el comendo open de cypress `npm run cy:open`, para correr las pruebas desde la terminar de cypress.
 - Para ejecutar el comendo run de cypress `npm run cy:run`, para correr las pruebas desde su terminal.

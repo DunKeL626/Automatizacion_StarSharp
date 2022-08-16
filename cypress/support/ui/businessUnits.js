@@ -1,0 +1,10 @@
+export const BUTTON_NEW_BUSINESS_UTILS = '.add-button > .button-outer > .button-inner';
+export const TITLE_BUSINESS_UTILS = '.title-text';
+export const TITLE_NEW_BUSINESS_UTILS = 'span[id="ui-id-1"]';
+export const SAVE_NEW_BUSINESS_UTILS = '.save-and-close-button > .button-outer > .button-inner';
+export const NAME_BUSINESS_UTILS = 'label[title="Name"]';
+export const TYPE_NAME_BUSINESS_UTILS = '#Serenity_Pro_Organization_BusinessUnitDialog3_Name';
+export const PARNET_UNIT = '.ParentUnitId > .caption';
+export const SELECT_PARNET_UNIT = '#select2-chosen-1';
+export const SEARCH_PARNET_UNIT = '#s2id_autogen1_search';
+export const SELECT_TYPE_PARNET_UNIT = '#select2-result-label-20';

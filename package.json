@@ -1,0 +1,16 @@
+{
+    "name": "start_sharp_screenplay",
+    "version": "1.0.0",
+    "description": "Reto Técnico Automatizador Choucair en Cypress con Screenplay",
+    "main": "index.js",
+    "scripts": {
+        "cy:open": "cypress open",
+        "cy:run": "cypress run",
+        "cy:verify": "cypress verify"
+    },
+    "author": "Juan Carlos Herazo Plazas",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^10.4.0"
+    }
+}

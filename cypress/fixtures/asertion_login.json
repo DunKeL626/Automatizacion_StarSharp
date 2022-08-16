@@ -1,0 +1,9 @@
+{
+    "FORM_TITLE": "Login to your account",
+    "USERNAME_TITLE": "Username",
+    "PASSWORD_TITLE": "Password",
+    "PASSWORD_FORGOT": "Forgot password?",
+    "NO_ACCOUNT": "Don't have account yet? Sign up.",
+    "ERROR_USERNAME_OR_PASSWORD": "Invalid username or password!",
+    "ERROR_MESSAGE": "Please validate empty or invalid inputs (marked with red) before submitting the form."
+}

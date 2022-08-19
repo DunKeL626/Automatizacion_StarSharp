@@ -10,11 +10,13 @@ Cypress.Commands.add("BusinessUnits", (asertion_businessUnits) => {
 
             response.body.Entities.forEach(async(nav, index) => {
 
-                cy.get(`div[class="slick-cell l0 r0 align-right"] > a[data-item-id="${nav.UnitId}"]`).should('be.visible').and('have.text', nav.UnitId);
-                cy.get(`div[class="slick-cell l1 r1"] > a[data-item-id="${nav.UnitId}"]`).should('be.visible').and('have.text', nav.Name);
+                console.log(nav);
+
+                cy.get(`div[class="slick-cell l0 r0 align-right"] > a[data-item-id="${nav.UnitId}"]`).should('exist').and('have.text', nav.UnitId);
+                cy.get(`div[class="slick-cell l1 r1"] > a[data-item-id="${nav.UnitId}"]`).should('exist').and('have.text', nav.Name);
 
                 if (index == 0) cy.get(`div[class="slick-cell l3 r3"] > a[data-item-id="${nav.UnitId}"]`).should('exist');
-                else cy.get(`div[class="slick-cell l3 r3"] > a[data-item-id="${nav.UnitId}"]`).should('be.visible').contains(nav.ParentUnitName);
+                else cy.get(`div[class="slick-cell l3 r3"] > a[data-item-id="${nav.UnitId}"]`).should('exist').contains(nav.ParentUnitName);
             });
         });
     });

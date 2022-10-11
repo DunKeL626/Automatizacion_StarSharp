@@ -27,4 +27,4 @@ La automatización esta diseñada con el patrón Screenplay ayudado con el comma
 
 ### Change log
 
-Versión 1.0: Se configuran la autuomatización según la prueba técnica de Choucair.
+Versión 1.0: Se configuran la autuomatización.

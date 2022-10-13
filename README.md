@@ -4,7 +4,7 @@ Este README documenta el objetivo del repositorio, los pasos necesarios para con
 
 ### ¿Para qué es este repositorio?
 
-Este repositorio tiene la automatización del aplicativo web de StartSharp, una web de demo para realizar pruebas automatizadas, El programa automatiza el formulario de inicio de sección, la creacion de una nueva unidad de negocio, y la creación de una nueva reunion, segun lo requierido por a prueba dtecnica de Choucair.
+Este repositorio tiene la automatización del aplicativo web de StartSharp, una web de demo para realizar pruebas automatizadas, El programa automatiza el formulario de inicio de sección, la creacion de una nueva unidad de negocio, y la creación de una nueva reunion.
 
 ### ¿Cómo se configura?
 
